@@ -7,7 +7,13 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                sans: ["Raleway", "sans-serif"],
+                roboto: ["Roboto", "sans-serif"],
+                raleway: ["Raleway", "sans-serif"],
+                serif: ["Times New Roman"],
+            },
+            colors: {
+                primary: "#D8251E",
+                dark: "#14212B",
             },
         },
     },
